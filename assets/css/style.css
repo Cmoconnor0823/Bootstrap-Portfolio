@@ -1,0 +1,27 @@
+
+/*text color doesn't appear to work*/
+.navbar-brand{
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#ffffff;
+}
+
+.bg{
+    background-image: url('/assets/images/concrete_seamless.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    height: 100%;
+}
+
+
+/*---Media queries---*/
+@media (max-width: 980px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 640px) {
+
+}
