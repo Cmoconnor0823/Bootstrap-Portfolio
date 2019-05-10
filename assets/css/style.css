@@ -5,12 +5,18 @@ body {
 
 
 
-
-/*text color doesn't appear to work*/
 .navbar-brand{
-    background-color: #4aaaa5;
+    float: left;
+    height: 5rem;
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    color:#ffffff;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4aaaa5;
+    
 }
 
 /*I dont think I coded the height correctly for botstrap*/
@@ -19,10 +25,20 @@ body {
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center;
-    overflow: auto;
+    overflow:visible;
     height: 100%;
 }
     
+.card {
+    margin-top: 1rem
+}
+
+/* attempt at resizing the image*/
+
+.img-thumbnail {
+    height: 30%;
+    width: 30%;
+}
 
 footer {
     padding: 30px 0;
