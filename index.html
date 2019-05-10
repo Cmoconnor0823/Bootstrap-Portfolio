@@ -16,63 +16,48 @@
     <!--Link to external CSS Style sheet-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
       
     </head>
     <body>
 
                 <!--nav links will not stay single lined horizontally-->
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <div class="container-fluid"> 
-                <!--is span correct here?-->       
-                <div class="navbar-brand col-sm-6  h1">Caitlin O'Connor</div>
-                    
-
-                    <!--need something becides ml auto to change rows on sizing-->
-                        <ul class="nav">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid">        
+                <a class="navbar-brand col-sm-6" href="index.html">Caitlin O'Connor</a>  
+                    <ul class="nav">
                 
-                            <li class="nav-item"><a class="nav-link active" href="index.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link " href="portfolio.html">Portfolio </a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    
-                        
-                        </ul>
-
+                        <li class="nav-item"><a class="nav-link active" href="index.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link " href="portfolio.html">Portfolio </a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>    
+    
+                    </ul>
             </div>
-            
-        </nav>
+    </nav>
  
         <!-- Background image fails to load-->
-    <div class="container bg">
-        <div class="">
+    <div class="bg">
+        <div class="container">
             <div class="row">
-                <!--card fails to stay center-->
-                
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <img class="card-img-left img-fluid img-thumbnail" src="assets/images/IMG_2740 (3).JPG" alt="Responsive image">
-                            <div class="card-body">
-                                <h1> About Me</h1>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
+                <!--will not stretch to fit-->
+                <div class="col-sm-6">
+                    <div class="pannel pannel-default">
+                        <div class="pannel-heading"> About Me</div>
+                        <div class="pannel-body">
+                                <img class="pannel-img-left img-fluid img-thumbnail" src="assets/images/IMG_2740 (3).JPG" alt="Responsive image">
+                            <p>Some quick example text to build on the pannel header and make up the bulk of the pannel's content.</p>
                         </div>
                     </div>
+                </div>
             </div>
         </div>
 
     </div>
-            <footer class="page-footer sticky-bottom">
-
-                <div class="container-fluid text-center">
-
-                    Copywrite
-
-                </div>
-            </footer>
-
-
-    </body>
-
-
-
+    <!--is footer a bootstrap tag?-->
+    <footer>
+        <div class="container-fluid text-center">
+             Copywrite &copy;
+        </div>
+    </footer>
+</body>
 </html>
