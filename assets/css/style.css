@@ -9,7 +9,7 @@ body {
     float: left;
     height: 5rem;
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 90px;
     color: #ffffff;
@@ -30,7 +30,8 @@ body {
 }
     
 .card {
-    margin-top: 1rem
+    margin-top: 1rem;
+    clear: both;
 }
 
 /* attempt at resizing the image*/
@@ -38,6 +39,12 @@ body {
 .img-thumbnail {
     height: 30%;
     width: 30%;
+}
+
+/*attempt at getting card to stop floating above header*/
+.container{
+ position: relative
+   
 }
 
 footer {
@@ -52,12 +59,7 @@ footer {
     height: 50px;
   }
 
-  /* This is the coding for the box for the about me page*/
 
-
-  /* this is the code for the contact page*/
-
-  /* This is the code for the portfolio page */
 
 /*---Media queries---*/
 @media (max-width: 980px) {
