@@ -24,6 +24,9 @@ body {
     
 }
 
+#imageText{
+    float:left;
+}
 /*I dont think I coded the height correctly for botstrap 
 moving to the body for better functionality
 .bg{
