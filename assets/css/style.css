@@ -42,7 +42,10 @@ moving to the body for better functionality
 .card {
     margin-top: 1rem;
     clear: both;
+    min-height: 500px;
 }
+
+
 
 /* attempt at resizing the image*/
 
