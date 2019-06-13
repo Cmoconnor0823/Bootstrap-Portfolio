@@ -27,18 +27,7 @@ body {
 #imageText{
     float:left;
 }
-/*I dont think I coded the height correctly for botstrap 
-moving to the body for better functionality
-.bg{
-    background-image: url('/assets/images/concrete_seamless.png'); 
-    background-repeat: repeat; 
-    background-size: cover; 
-    background-position: center center;
-    overflow:visible;
-    height: 100%;
-}
-*/
-    
+
 .card {
     margin-top: 1rem;
     clear: both;
