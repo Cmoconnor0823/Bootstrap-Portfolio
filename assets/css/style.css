@@ -1,8 +1,7 @@
 html,
 body {
-    background-image: url('../../assets/images/concrete_seamless.png'); 
-    background-repeat: repeat; 
-    background-size: cover; 
+    background-image: url('../../assets/images/papyrus.png'); 
+    background-repeat: repeat;  
     background-position: center center;
     overflow:visible;
     height: 100%;
